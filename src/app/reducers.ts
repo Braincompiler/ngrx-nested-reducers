@@ -10,7 +10,7 @@ export interface IState {
     }
 }
 
-export const reducers = /* combineReducers( */{
+export const reducers = combineReducers({
     a: fromApp.reducer,
     b: fromNested.reducer,
-}/* ) */
+})
